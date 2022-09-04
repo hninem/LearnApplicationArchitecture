@@ -4,4 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-Console.WriteLine("Hello, World!");
+namespace BankingConsoleApp
+{
+    static class MyExtensions
+    {
+        public static int Increase(this int a)
+        {
+            return a + 1;
+        }
+    }        
+}
